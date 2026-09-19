@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kike</string>
+    <string name="password">Contraseña</string>
+    <string name="correo">Correo</string>
+    <color name="boton1">#f999f1</color>
+    <color name="boton3">#766767</color>
+    <string name="boton3">iniciar sesion</string>
+    <string name="six">imagen</string>
+    <string name="boton2">boton</string>
+    <color name="boton2">#454321</color>
+</resources>
