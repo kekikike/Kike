@@ -27,11 +27,15 @@ public class MainActivity extends AppCompatActivity {
     }
     //Login
     public void Login (View view){
+        Intent obj=new Intent(this,MenuPrincipal.class);
+        this.startActivity(obj);
+    }
+    /* public void Login (View view){
         Intent obj=new Intent(this,PantallaDos.class);
         String usuario = CAJA.getText().toString();
         obj.putExtra("USUARIO", usuario);
         this.startActivity(obj);
         this.finish();
-    }
+    }*/
 
 }

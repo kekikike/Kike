@@ -51,7 +51,7 @@
         >
         <!--Boton de inicio-->
         <LinearLayout
-            android:id="@+id/botoninicio"
+            android:id="@+id/botonCarro"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -59,15 +59,15 @@
             android:layout_weight="1"
             >
             <ImageView
-                android:id="@+id/casa"
+                android:id="@+id/carro"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/perfil"
+                android:src="@drawable/carrito"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Casita"
+                android:text="Compras"
                 android:textColor="@color/black"
                 />
         </LinearLayout>
@@ -84,16 +84,16 @@
                 android:id="@+id/casa"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:src="@drawable/perfil" />
+                android:src="@drawable/descarga" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Casita"
+                android:text="Inicio"
                 android:textColor="@color/black" />
         </LinearLayout>
         <LinearLayout
-            android:id="@+id/botoninicio"
+            android:id="@+id/botonperfil"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -101,7 +101,7 @@
             android:layout_weight="1"
             >
             <ImageView
-                android:id="@+id/casa"
+                android:id="@+id/perfil"
                 android:layout_width="25dp"
                 android:layout_height="25dp"
                 android:src="@drawable/perfil"
